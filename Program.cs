@@ -65,7 +65,7 @@ class Program {
 
     public static async Task SlashCommandHandler(SocketSlashCommand command) {
         switch (command.CommandName) {
-            case "ping-command":
+            case "ping":
                 await command.RespondAsync("Pong! :ping_pong:");
                 break;
             case "list-roles":
